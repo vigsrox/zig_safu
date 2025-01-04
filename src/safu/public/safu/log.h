@@ -45,7 +45,7 @@ __BEGIN_DECLS
 safuLogLevelE_t safuLogLevelFromString(const char *logLevelStr);
 const char *safuLogLevelToString(safuLogLevelE_t logLevel);
 
-safuLogLevelE_t safuLogGetStreamLevel();
+safuLogLevelE_t safuLogGetStreamLevel(void);
 
 safuLogStatusE_t safuLogSetPrefix(const char *prefix);
 safuLogStatusE_t safuLogSetStream(safuLogLevelE_t level, FILE *stream);
